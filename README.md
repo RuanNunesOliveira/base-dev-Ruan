@@ -8,4 +8,4 @@ local de armagenamento de projetos pessoais para estudos, contendo:
 - Front-end basico (Javascript, HTML e CSS)
 - Projetos de treino
 
-* Esse repositorio e apenas para estudos *
+ Aviso: Esse repositorio e apenas para estudos.
