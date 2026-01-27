@@ -28,49 +28,49 @@ INSERT INTO materias (materia) VALUES
 --============================================
 -- TÓPICOS
 --============================================
-INSERT INTO topicos (topico) VALUES
+INSERT INTO topicos (topico, materia_id) VALUES
 -- MATEMÁTICA
-('Operações básicas e ordem de precedência.'),
-('Frações: simplificação e comparação'),
-('Razão e proporção no dia a dia.'),
-('Porcentagem e aplicações práticas.'),
-('Equações do 1º grau.'),
-('Área e perímetro de figuras planas.'),
+('Operações básicas e ordem de precedência.',2),
+('Frações: simplificação e comparação',2),
+('Razão e proporção no dia a dia.',2),
+('Porcentagem e aplicações práticas.',2),
+('Equações do 1º grau.',2),
+('Área e perímetro de figuras planas.',2),
 
 -- PORTUGUÊS
-('Interpretação de texto e inferência.'),
-('Classes gramaticais essenciais.'),
-('Pontuação e sentido da frase.'),
+('Interpretação de texto e inferência.',1),
+('Classes gramaticais essenciais.',1),
+('Pontuação e sentido da frase.',1),
 
 -- FÍSICA
-('Conceito de movimento e repouso.'),
-('Velocidade média.'),
-('Aceleração básica.'),
-('Leis de Newton (ideia geral).'),
-('Força peso e massa.'),
-('Trabalho e energia (noção).'),
-('Calor vs temperatura.'),
+('Conceito de movimento e repouso.',6),
+('Velocidade média.',6),
+('Aceleração básica.',6),
+('Leis de Newton (ideia geral).',6),
+('Força peso e massa.',6),
+('Trabalho e energia (noção).',6),
+('Calor vs temperatura.',6),
 
 -- HISTÓRIA
-('Antiguidade: Egito e Mesopotâmia.'),
-('Grécia Antiga e democracia.'),
-('Império Romano e sua queda.'),
-('Idade Média e feudalismo.'),
-('Brasil Colônia: economia e sociedade.'),
+('Antiguidade: Egito e Mesopotâmia.',3),
+('Grécia Antiga e democracia.',3),
+('Império Romano e sua queda.',3),
+('Idade Média e feudalismo.',3),
+('Brasil Colônia: economia e sociedade.',3),
 
 -- INGLÊS
-('Verb to be (uso básico).'),
-('Pronomes pessoais.'),
-('Simple Present.'),
-('Vocabulário do cotidiano.'),
+('Verb to be (uso básico).',5),
+('Pronomes pessoais.',5),
+('Simple Present.',5),
+('Vocabulário do cotidiano.',5),
 
 -- CIÊNCIAS
-('Célula: estrutura e função.'),
-('Sistemas do corpo humano.'),
-('Cadeia alimentar.'),
-('Estados físicos da matéria.'),
-('Ciclo da água.'),
-('Sustentabilidade e meio ambiente.');
+('Célula: estrutura e função.',4),
+('Sistemas do corpo humano.',4),
+('Cadeia alimentar.',4),
+('Estados físicos da matéria.',4),
+('Ciclo da água.',4),
+('Sustentabilidade e meio ambiente.',4);
 
 
 --============================================
