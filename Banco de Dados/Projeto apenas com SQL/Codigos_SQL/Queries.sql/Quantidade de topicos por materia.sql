@@ -1,4 +1,4 @@
-SELECT m.materia AS Materia, COUNT(t.topico) AS 'Quantidade de topicos da materia'
+SELECT m.materia AS Materia, COUNT(t.topico) AS "Quantidade de topicos da materia"
 FROM materias m
 LEFT JOIN materia_topicos mt
 ON m.materia_id = mt.materia_id

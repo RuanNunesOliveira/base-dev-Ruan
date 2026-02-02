@@ -1,5 +1,5 @@
 SELECT u.nome AS Nome,
-m.materia AS 'Ultima materia estudada pelo usuario',
+m.materia AS "Ultima materia estudada pelo usuario",
 MAX(e.data_do_estudo) AS Data
 FROM usuarios u
 LEFT JOIN estudos e

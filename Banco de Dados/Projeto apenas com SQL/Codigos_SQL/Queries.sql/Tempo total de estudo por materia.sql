@@ -1,7 +1,7 @@
 SELECT m.materia AS Materia,
-(SUM(e.tempo_de_estudo)/60/60) ||':'||
+(SUM(e.tempo_de_estudo)/3600) ||':'||
 printf('%02d',SUM(e.tempo_de_estudo)/60%60) ||':'||
-printf('%02d',SUM(e.tempo_de_estudo)%60) as 'Tempo total de estudo da materia'
+printf('%02d',SUM(e.tempo_de_estudo)%60) as "Tempo total de estudo da materia"
 FROM materias m
 LEFT JOIN  materia_topicos mt 
 ON m.materia_id = mt.materia_id
